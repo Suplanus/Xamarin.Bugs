@@ -9,18 +9,11 @@ using Xamarin.Forms;
 namespace Xamarin.Bugs
 {
     [DesignTimeVisible(false)]
-    public partial class Issue8981 : ContentPage
+    public partial class MainPage : ContentPage
     {
-        public Issue8981()
+        public MainPage()
         {
             InitializeComponent();
-        }
-
-        protected override async void OnAppearing()
-        {
-            base.OnAppearing();
-
-            
         }
     }
 }
