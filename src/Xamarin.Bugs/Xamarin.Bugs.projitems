@@ -19,6 +19,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Issue9241.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
@@ -33,6 +37,9 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Issue9141.xaml.cs">
       <DependentUpon>Issue9141.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Issue9241.xaml.cs">
+      <DependentUpon>Issue9241.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

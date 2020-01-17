@@ -10,10 +10,5 @@ namespace Xamarin.Bugs
         {
             InitializeComponent();
         }
-
-        async void Button_Clicked(System.Object sender, System.EventArgs e)
-        {
-            await DisplayAlert("Clicked", "Clicked", "OK");
-        }
     }
 }

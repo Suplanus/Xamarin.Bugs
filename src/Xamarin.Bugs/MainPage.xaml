@@ -6,27 +6,7 @@
              mc:Ignorable="d"
              x:Class="Xamarin.Bugs.MainPage">
 
-    <StackLayout Margin="100">
 
-<Button
-    HorizontalOptions="Center"
-        BorderColor="Red"
-    Text="Button"
-        Clicked="Button_Clicked"
-    VerticalOptions="StartAndExpand" >
-</Button>
-
-<Grid BackgroundColor="Transparent">
-    <Grid.GestureRecognizers>
-        <TapGestureRecognizer  Tapped="Button_Clicked" />
-    </Grid.GestureRecognizers>
-    <Label
-        HorizontalOptions="CenterAndExpand"
-        Text="Grid"
-        VerticalOptions="StartAndExpand" />
-</Grid>
-
-    </StackLayout>
 
 
 
