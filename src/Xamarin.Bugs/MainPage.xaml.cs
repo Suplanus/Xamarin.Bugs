@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 using Xamarin.Forms;
 
 namespace Xamarin.Bugs
@@ -14,6 +9,11 @@ namespace Xamarin.Bugs
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        async void Button_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await DisplayAlert("Clicked", "Clicked", "OK");
         }
     }
 }

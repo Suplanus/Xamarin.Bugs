@@ -25,12 +25,8 @@
     <key>NSPrincipalClass</key>
     <string>NSApplication</string>
     <key>XSAppIconAssets</key>
-    <string>Assets.xcassets/AppIcon.appiconset</string>
-    <key>Fonts provided by application</key>
-	<array>
-		<string>FontAwesome5Regular.otf</string>
-		<string>FontAwesome5Solid.otf</string>
-		<string>FontAwesome5Brands.otf</string>
-	</array>
+    <string>Assets.xcassets/AppIcon.appiconset</string>    
+    <key>ATSApplicationFontsPath</key>
+    <string>Fonts</string>
 </dict>
 </plist>

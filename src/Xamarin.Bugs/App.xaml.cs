@@ -10,7 +10,7 @@ namespace Xamarin.Bugs
         {
             InitializeComponent();
 
-            MainPage = new Issue9141();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart ()

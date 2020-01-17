@@ -16,6 +16,7 @@ namespace Xamarin.Bugs.macOS
             window = new NSWindow(rect, style, NSBackingStore.Buffered, false);
             window.Title = "Xamarin.Forms on Mac!";
             window.TitleVisibility = NSWindowTitleVisibility.Hidden;
+         
         }
 
         public override NSWindow MainWindow
