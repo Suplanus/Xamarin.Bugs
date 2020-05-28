@@ -8,20 +8,9 @@
    <Application.Resources>
 
         <ResourceDictionary>
-            <OnPlatform x:Key="FontAwesomeBrands" x:TypeArguments="x:String">
-                <On Platform="Android" Value="FontAwesome5Brands.otf#Regular" />
-                <On Platform="iOS, macOS" Value="FontAwesome5Brands-Regular" />
-            </OnPlatform>
-
-            <OnPlatform x:Key="FontAwesomeSolid" x:TypeArguments="x:String">
-                <On Platform="Android" Value="FontAwesome5Solid.otf#Regular" />
-                <On Platform="iOS, macOS" Value="FontAwesome5Free-Solid" />
-            </OnPlatform>
-
-            <OnPlatform x:Key="FontAwesomeRegular" x:TypeArguments="x:String">
-                <On Platform="Android" Value="FontAwesome5Regular.otf#Regular" />
-                <On Platform="iOS, macOS" Value="FontAwesome5Free-Regular" />
-            </OnPlatform>        
+            <x:String x:Key="FontAwesomeBrands">FontAwesome5Brands</x:String>
+            <x:String x:Key="FontAwesomeRegular">FontAwesome5Regular</x:String>
+            <x:String x:Key="FontAwesomeSolid">FontAwesome5Solid</x:String>       
         </ResourceDictionary>
 
     </Application.Resources>
